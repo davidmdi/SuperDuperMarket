@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainController">
+    <content>
+      <AnchorPane>
+         <children>
+              <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+                  <top>
+                      <Label text="Supr Dueper Market" BorderPane.alignment="BOTTOM_CENTER">
+                          <BorderPane.margin>
+                              <Insets />
+                          </BorderPane.margin>
+                          <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                          </padding>
+                      </Label>
+                  </top>
+                  <left>
+                      <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="268.0" prefWidth="125.0" spacing="5.0" BorderPane.alignment="CENTER">
+                          <children>
+                              <Button fx:id="loadXmlBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#loadXmlOnAction" text="Load XML">
+                                  <VBox.margin>
+                                      <Insets />
+                                  </VBox.margin>
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                              </Button>
+                              <Button fx:id="showStoreBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#showStoreOnAction" text="Show stores">
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                              </Button>
+                              <Button fx:id="showItemsBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#showItemsOnAction" text="Show Items">
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                              </Button>
+                              <Button fx:id="showCustomerBtn" mnemonicParsing="false" onAction="#showCustomerOnAction" text="Show Customer">
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                              </Button>
+                              <Button fx:id="makeOrderBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#makeOrderOnAction" text="Make order">
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                              </Button>
+                              <Button fx:id="updateInfoBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#updateInfoOnAction" text="Update info">
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                              </Button>
+                              <Button fx:id="showMapBtn" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#showMapOnAction" text="Show Map">
+                                  <padding>
+                                      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                  </padding>
+                              </Button>
+                          </children>
+                          <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                          </padding>
+                      </VBox>
+                  </left>
+                  <bottom>
+                      <Label maxHeight="1.7976931348623157E308" text="Created by David Mdinaradze" BorderPane.alignment="BOTTOM_RIGHT">
+                          <font>
+                              <Font size="8.0" />
+                          </font>
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                      </Label>
+                  </bottom>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+              </BorderPane>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+      </AnchorPane>
+    </content>
+</ScrollPane>
